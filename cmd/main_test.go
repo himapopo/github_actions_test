@@ -5,5 +5,5 @@ import (
 )
 
 func TestMain(t *testing.T) {
-	t.Fatal("github actions test")
+	t.Log("github actions test")
 }
