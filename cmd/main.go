@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
-	fmt.Printf("github actions test%s")
+	time.Sleep(1)
+	fmt.Printf("github actions test")
 }
