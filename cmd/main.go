@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	time.Sleep(1)
+	time.Sleep(0)
 	fmt.Printf("github actions test")
 }
